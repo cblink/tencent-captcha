@@ -1,0 +1,19 @@
+{
+    "name": "contest/tencent-captcha",
+    "description": "Package description here.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nick",
+            "email": "me@xieying.vip"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.0|^6.5|^5.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Contest\\TencentCaptcha\\": "src"
+        }
+    }
+}
